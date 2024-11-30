@@ -53,5 +53,19 @@ contract PGToken {
         coinBalances[recipient] += amount;
         supply -= amount;
     }
-} ```
+}
 
+- Click on the "Solidity Compiler" tab in the left-hand sidebar. Ensure the "Compiler" option is set to "0.8.25" (or a compatible version), and then click on the "Compile PGToken.sol" button.
+- Deploy the Contract: Click on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "PGToken" contract from the dropdown menu, and then click on the "Deploy" button.
+- Interact with the Contract: After deployment, you can interact with the contract by calling the functions mintCoins, burnCoins, and transferCoins to manage the token supply and perform transactions.
+
+
+## Author
+
+Gabriel, Paul Andre A.
+School Email: 201811412@fit.edu.ph
+FEU Institute of Technology
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
