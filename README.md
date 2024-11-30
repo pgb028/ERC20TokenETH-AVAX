@@ -54,6 +54,7 @@ contract PGToken {
         supply -= amount;
     }
 }
+```
 
 - Click on the "Solidity Compiler" tab in the left-hand sidebar. Ensure the "Compiler" option is set to "0.8.25" (or a compatible version), and then click on the "Compile PGToken.sol" button.
 - Deploy the Contract: Click on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "PGToken" contract from the dropdown menu, and then click on the "Deploy" button.
